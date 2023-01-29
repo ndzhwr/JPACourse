@@ -39,6 +39,7 @@ public class TestSystem {
         } finally {
             em.close();
         }
+
     }
 
     public static List<Customer> getCustomers() {
